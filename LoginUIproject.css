@@ -1,19 +1,16 @@
-body
-{
-
-
-
-
 .container {
-border: solid;
-background: url(https://www.google.com/search?q=free+backgrounds&rlz=1C1GCEA_enUS909US909&sxsrf=ALeKk01ibioqNLsLdDFW8SP_InmknzkJnw:1603221824355&tbm=isch&source=iu&ictx=1&fir=5qUxwE6gbpb2UM%252C0VrI7l-ALFtrbM%252C_&vet=1&usg=AI4_-kQmVfR-tXO3gLqS88Kn7a0Jzz8A2Q&sa=X&ved=2ahUKEwirw9ja8sPsAhUDiqwKHY1FAbIQ9QF6BAgPEGw&biw=1366&bih=625#imgrc=5qUxwE6gbpb2UM)
-background-size: cover;
-background-positiion: center;
-background-repeat: no repeat;
-display: flex;
-align-items: center;
-justify-content: center;
-min-height: 100vh;
+    display: flex;
+    border: solid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: url(https://www.google.com/search?q=free+backgrounds&rlz=1C1GCEA_enUS909US909&sxsrf=ALeKk01ibioqNLsLdDFW8SP_InmknzkJnw:1603221824355&tbm=isch&source=iu&ictx=1&fir=5qUxwE6gbpb2UM%252C0VrI7l-ALFtrbM%252C_&vet=1&usg=AI4_-kQmVfR-tXO3gLqS88Kn7a0Jzz8A2Q&sa=X&ved=2ahUKEwirw9ja8sPsAhUDiqwKHY1FAbIQ9QF6BAgPEGw&biw=1366&bih=625#imgrc=5qUxwE6gbpb2UM)
 }
 
 #login-box-wrapper {
@@ -30,7 +27,6 @@ min-height: 100vh;
 }
 
 button {
-    /*border: none;*/
     display: block;
     margin: 0 auto;
     margin-bottom: 15px;
