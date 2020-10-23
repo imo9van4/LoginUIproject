@@ -1,0 +1,53 @@
+body
+{
+
+
+
+
+.container {
+border: solid;
+background: url(https://www.google.com/search?q=free+backgrounds&rlz=1C1GCEA_enUS909US909&sxsrf=ALeKk01ibioqNLsLdDFW8SP_InmknzkJnw:1603221824355&tbm=isch&source=iu&ictx=1&fir=5qUxwE6gbpb2UM%252C0VrI7l-ALFtrbM%252C_&vet=1&usg=AI4_-kQmVfR-tXO3gLqS88Kn7a0Jzz8A2Q&sa=X&ved=2ahUKEwirw9ja8sPsAhUDiqwKHY1FAbIQ9QF6BAgPEGw&biw=1366&bih=625#imgrc=5qUxwE6gbpb2UM)
+background-size: cover;
+background-positiion: center;
+background-repeat: no repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+
+#login-box-wrapper {
+    justify-content: center;
+    align-items: center;
+    flex-direction: col;
+    border-radius: 15px;
+    margin-bottom: 225px;
+    margin-top: 225px;
+    padding: 20px;
+    height: 50vh;
+    width: 400px;
+    border-radius: 15px;
+}
+
+button {
+    /*border: none;*/
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 9px;
+    width: 90%;
+    border-radius: 15px;
+    background-color: blue;
+}
+
+input {
+    background-color: rgba(7, 7, 7, 0.829);
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 95%;
+}
+
+.login {
+    background-color: rgba 151, 152, 156, 0.932;
+}
