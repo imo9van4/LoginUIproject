@@ -1,19 +1,17 @@
-body
+body{
+    background-size: cover;
+    background-positiion: center;
+    background-repeat: no-repeat;
+    background: url(https://i.pinimg.com/originals/7c/9f/54/7c9f546821e6ce60ba274c302894b60c.jpg);
+    */see notes*/
 {
 
-
-
-
 .container {
-border: solid;
-background: url(https://www.google.com/search?q=free+backgrounds&rlz=1C1GCEA_enUS909US909&sxsrf=ALeKk01ibioqNLsLdDFW8SP_InmknzkJnw:1603221824355&tbm=isch&source=iu&ictx=1&fir=5qUxwE6gbpb2UM%252C0VrI7l-ALFtrbM%252C_&vet=1&usg=AI4_-kQmVfR-tXO3gLqS88Kn7a0Jzz8A2Q&sa=X&ved=2ahUKEwirw9ja8sPsAhUDiqwKHY1FAbIQ9QF6BAgPEGw&biw=1366&bih=625#imgrc=5qUxwE6gbpb2UM)
-background-size: cover;
-background-positiion: center;
-background-repeat: no repeat;
-display: flex;
-align-items: center;
-justify-content: center;
-min-height: 100vh;
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 #login-box-wrapper {
